@@ -1,0 +1,260 @@
+body{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+/* *******HEADER STUFF STARTS HERE****** */
+
+header{
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 940px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header-class{
+  height: 60px;
+  display: flex;
+  flex-basis: 100%;
+}
+
+header span{
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  padding-left: 40px;
+  font-size: 15pt;
+}
+
+header nav{
+  display: flex;
+  margin-left: auto;
+}
+
+header nav ul{
+  display: inline-flex;
+  list-style: none;
+  font-size: 10pt;
+  align-self: center;
+  margin-right: 30px;
+}
+
+header nav ul :nth-child(1){
+  padding: 3px;
+  text-decoration: none;
+}
+
+header nav ul :nth-child(2){
+  padding: 3px;
+  text-decoration: none;
+}
+
+header nav ul :nth-child(3){
+  padding: 3px;
+  text-decoration: none;
+}
+
+header nav ul a:hover{
+  color: #fff;
+}
+
+header nav ul a:visited{
+  color: #fff;
+}
+
+/* *******HEADER STUFF ENDS HERE****** */
+
+/* *******HERO SECTION STARTS HERE****** */
+
+#hero{
+  height: 600px;
+  background-image: url(../images/hands-typing.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1050px;
+  filter: grayscale(70%);
+  display: flex;
+}
+
+#hero h1{
+  max-width: 30%;
+  background-color:rgba(0, 0, 0, .5);
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-self: center;
+}
+
+/* *******HERO SECTION ENDS HERE****** */
+
+/* *******ABOUT ME SECTION STARTS HERE****** */
+
+.about-me-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-height: 400px;
+}
+
+#about-me-text{
+  font-size: 10pt;
+  line-height: 14pt;
+  padding: 10% 0 10% 0;
+  grid-column: 1/2;
+  align-self: center;
+}
+
+#about-me h2{
+  font-size: 20pt;
+  grid-column: 1 / 2;
+}
+
+#about-me img{
+  width: 300px;
+  grid-column: 2 / 3;
+  align-self: self-end;
+}
+
+#about-me p{
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+/* *******ABOUT ME SECTION ENDS HERE****** */
+
+/* *******SERVICES SECTION STARTS HERE****** */
+
+#services{
+  background-color: #fafafa;
+  max-width: 1050px;
+  justify-items: center;
+  margin-top: 0;
+}
+
+#services h2{
+  margin-top: 0;
+  padding-top: 40px;
+  text-align: center;
+  max-width: 940px;
+  font-size: 24pt;
+}
+
+.services-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 20px;
+  max-width: 940px;
+}
+
+.services-grid article{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.services-grid article h3{
+  margin-bottom: 0;
+  margin-top: 5pt;
+  font-size: 16pt;
+  padding: 5pt;
+}
+
+.services-grid article p{
+  padding: 0 10px 0 10px;
+  font-size: 9pt;
+  line-height: 13pt;
+
+}
+
+.services-grid a{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* *******SERVICES SECTION ENDS HERE****** */
+
+/* *******MY WORK SECTION STARTS HERE****** */
+
+#work{
+  margin-bottom: 50px;
+}
+
+#work h2{
+  text-align: center;
+  max-width: 940px;
+}
+
+#work p{
+  text-align: center;
+  max-width: 850px ;
+}
+
+.my-work-grid{
+  max-width: 940px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  "div1 div1 div1 div2 div2 div2"
+  "div3 div3 div4 div4 div5 div5"
+  ;
+}
+
+.my-work-grid :nth-child(1){
+  width: 100%;
+  grid-area: div1;
+}
+
+.my-work-grid :nth-child(2){
+  width: 100%;
+  grid-area: div2;
+}
+
+.my-work-grid :nth-child(3){
+  width: 100%;
+  grid-area: div3;
+}
+
+.my-work-grid :nth-child(4){
+  width: 100%;
+  grid-area: div4;
+}
+
+.my-work-grid :nth-child(5){
+  width: 100%;
+  grid-area: div5;
+}
+
+/* *******MY WORK SECTION ENDS HERE****** */
+
+
+
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+}
