@@ -31,7 +31,7 @@ header span{
   justify-self: flex-start;
   align-self: center;
   padding-left: 40px;
-  font-size: 15pt;
+  font-size: 1.25rem;
 }
 
 header nav{
@@ -42,7 +42,7 @@ header nav{
 header nav ul{
   display: inline-flex;
   list-style: none;
-  font-size: 10pt;
+  font-size: 0.8rem;
   align-self: center;
   margin-right: 30px;
 }
@@ -85,7 +85,7 @@ header nav ul a:visited{
 }
 
 #hero h1{
-  max-width: 30%;
+  max-width: 50%;
   background-color:rgba(0, 0, 0, .5);
   color: #fff;
   text-shadow: 2px 2px 4px black;
@@ -107,7 +107,7 @@ header nav ul a:visited{
 }
 
 #about-me-text{
-  font-size: 10pt;
+  font-size: 0.8rem;
   line-height: 14pt;
   padding: 10% 0 10% 0;
   grid-column: 1/2;
@@ -115,7 +115,7 @@ header nav ul a:visited{
 }
 
 #about-me h2{
-  font-size: 20pt;
+  font-size: 1.6rem;
   grid-column: 1 / 2;
 }
 
@@ -146,7 +146,7 @@ header nav ul a:visited{
   padding-top: 40px;
   text-align: center;
   max-width: 940px;
-  font-size: 24pt;
+  font-size: 2rem;
 }
 
 .services-grid{
@@ -169,13 +169,13 @@ header nav ul a:visited{
 .services-grid article h3{
   margin-bottom: 0;
   margin-top: 5pt;
-  font-size: 16pt;
+  font-size: 1.3rem;
   padding: 5pt;
 }
 
 .services-grid article p{
   padding: 0 10px 0 10px;
-  font-size: 9pt;
+  font-size: 0.7rem;
   line-height: 13pt;
 
 }
